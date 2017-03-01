@@ -7,6 +7,8 @@ package cn.zhangxd.framework;
  */
 public interface ConfigConstant {
 
+    String UTF_8 = "UTF-8";
+
     String CONFIG_FILE = "config.properties";
 
     String JDBC_DRIVER = "web.framework.jdbc.driver";

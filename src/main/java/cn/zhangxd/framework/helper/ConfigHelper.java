@@ -62,4 +62,8 @@ public class ConfigHelper {
     public static String getAppAssetPath() {
         return PropsUtil.getString(CONFIG_PROPS, ConfigConstant.APP_ASSET_PATH, "/asset/");
     }
+
+    public static String getString(String key) {
+        return PropsUtil.getString(CONFIG_PROPS, key);
+    }
 }

@@ -1,9 +1,6 @@
 package cn.zhangxd.framework;
 
-import cn.zhangxd.framework.helper.BeanHelper;
-import cn.zhangxd.framework.helper.ClassHelper;
-import cn.zhangxd.framework.helper.ControllerHelper;
-import cn.zhangxd.framework.helper.IocHelper;
+import cn.zhangxd.framework.helper.*;
 import cn.zhangxd.framework.util.ClassUtil;
 
 /**
@@ -17,6 +14,7 @@ public final class HelperLoader {
         Class<?>[] classList = {
                 ClassHelper.class,
                 BeanHelper.class,
+                AopHelper.class,
                 IocHelper.class,
                 ControllerHelper.class
         };
